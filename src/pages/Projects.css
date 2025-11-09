@@ -33,6 +33,29 @@
   margin: 0 auto;
 }
 
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 32px;
+}
+
+.empty-state h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  letter-spacing: 0.02em;
+}
+
+.empty-state p {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
 @media (max-width: 768px) {
   .projects-hero {
     padding: 48px 16px;
@@ -48,5 +71,9 @@
 
   .projects-section {
     padding: 48px 16px;
+  }
+
+  .tile-grid {
+    grid-template-columns: 1fr;
   }
 }
