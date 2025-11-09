@@ -48,7 +48,7 @@ export function About() {
               <div className="contact-grid">
                 <div className="contact-tile" style={{ backgroundColor: '#FA6800' }}>
                   <span className="contact-label">COURSE</span>
-                  <span className="contact-value">Swiss Design Lineage</span>
+                  <span className="contact-value">IS373 Content Management Systems</span>
                 </div>
                 <div className="contact-tile" style={{ backgroundColor: '#000000' }}>
                   <span className="contact-label">INSTRUCTOR</span>
