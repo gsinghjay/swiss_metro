@@ -1,0 +1,56 @@
+.metro-nav {
+  background: #000000;
+  color: #ffffff;
+  padding: 0 32px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.nav-brand {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 200ms ease-out;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  border-bottom-color: #0078D7;
+}
+
+@media (max-width: 768px) {
+  .metro-nav {
+    padding: 0 16px;
+  }
+
+  .nav-links {
+    gap: 16px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+}

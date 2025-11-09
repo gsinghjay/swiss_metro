@@ -1,0 +1,63 @@
+.metro-tile {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  transition: transform 200ms ease-out;
+  cursor: pointer;
+}
+
+.metro-tile:hover {
+  transform: scale(1.02);
+}
+
+.metro-tile[data-size="1x1"] {
+  aspect-ratio: 1;
+}
+
+.metro-tile[data-size="2x1"] {
+  aspect-ratio: 2 / 1;
+}
+
+.metro-tile[data-size="1x2"] {
+  aspect-ratio: 1 / 2;
+}
+
+.metro-tile[data-size="2x2"] {
+  aspect-ratio: 1;
+}
+
+.tile-content {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tile-metadata {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.tile-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.metro-tile[data-size="2x1"] .tile-title,
+.metro-tile[data-size="2x2"] .tile-title {
+  font-size: 32px;
+}
+
+.tile-subtitle {
+  font-size: 14px;
+  margin: 8px 0 0 0;
+  opacity: 0.95;
+  line-height: 1.4;
+}

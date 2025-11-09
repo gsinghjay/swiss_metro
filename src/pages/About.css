@@ -1,0 +1,157 @@
+.about-hero {
+  background: #00ABA9;
+  color: #ffffff;
+  padding: 64px 32px;
+}
+
+.about-hero .hero-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about-hero .hero-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin: 0 0 16px 0;
+}
+
+.about-hero .hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.about-section {
+  padding: 64px 32px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.bio h2,
+.skills-section h2,
+.contact-section h2 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin: 0 0 24px 0;
+}
+
+.bio p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 20px 0;
+}
+
+.bio p:last-child {
+  margin-bottom: 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.skill-tile {
+  padding: 32px 24px;
+  color: #ffffff;
+  transition: transform 200ms ease-out;
+}
+
+.skill-tile:hover {
+  transform: scale(1.02);
+}
+
+.skill-tile h3 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin: 0 0 12px 0;
+}
+
+.skill-tile p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.contact-tile {
+  padding: 32px 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 200ms ease-out;
+}
+
+.contact-tile:hover {
+  transform: scale(1.02);
+}
+
+.contact-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+}
+
+.contact-value {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 48px 16px;
+  }
+
+  .about-hero .hero-title {
+    font-size: 48px;
+  }
+
+  .about-hero .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .about-section {
+    padding: 48px 16px;
+  }
+
+  .about-content {
+    gap: 48px;
+  }
+
+  .bio h2,
+  .skills-section h2,
+  .contact-section h2 {
+    font-size: 36px;
+  }
+
+  .bio p {
+    font-size: 16px;
+  }
+
+  .skills-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

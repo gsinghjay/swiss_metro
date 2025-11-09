@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Phase 1: Research",
+    "slug": "phase-1-research",
+    "description": "Understanding Metro design principles and gathering authentic references",
+    "content": "The research phase set the foundation for the entire transformation. I spent hours studying authentic Metro examples, not just looking at them, but analyzing what made them work.\n\nWindows 10 became my primary reference. The Start menu tiles, Settings app typography, and system-wide color usage taught me how Microsoft applies these principles at scale. Every detail has a reason.\n\nI created a reference board with 50+ screenshots organized by category: typography examples, color usage, tile layouts, navigation patterns, interaction states. This became my north star throughout the project.\n\nKey documents studied: The original Metro design guidelines from Windows Phone 7 era, Fluent Design System documentation, and analysis articles from design publications. Understanding the \"why\" behind decisions helped me make better choices.\n\nResearch revealed that Metro isn't just an aesthetic - it's a philosophy. Content before chrome. Typography as hierarchy. Authentically digital. These principles guided every decision that followed.\n\nTime spent: 2 hours. Screenshots saved: 52. Authentic examples identified: 15. Ready to build.",
+    "color": "#0078D7",
+    "featured": true,
+    "order_index": 1
+  },
+  {
+    "id": "2",
+    "title": "Phase 2: Build Sprints",
+    "slug": "phase-2-build",
+    "description": "Three focused sprints collaborating with AI to transform the design",
+    "content": "Build phase consisted of three 2-hour sprints, each with clear objectives and measurable outcomes. This wasn't about getting it done fast - it was about getting it done right.\n\nSprint 1 established foundation: layout structure, typography scale, color system, tile components. I learned to be specific with AI: \"96px Segoe UI Semibold hero text\" beats \"make it big.\" Precision gets precision.\n\nSprint 2 focused on refinement: navigation styling, responsive behavior, hover states, spacing consistency. Each element went through 2-3 iterations. First attempt is never the best attempt.\n\nSprint 3 completed remaining pages: blog listing, individual post pages, projects section, about page. By this sprint, I had a rhythm with the AI - provide clear requirements, screenshot the result, identify gaps, iterate.\n\nThroughout, I maintained a screenshot archive showing evolution. Seeing the progression from generic to authentic Metro was satisfying. Early versions looked \"inspired by\" Metro. Final versions look like they could ship in a Microsoft product.\n\nKey learning: AI is a powerful collaborator when directed strategically. Vague prompts get vague results. Specific, measurable requirements get professional output.\n\nTotal time: 6 hours. Iterations per component: 2-3x. Pages built: 6. Quality standard: Authentically Metro.",
+    "color": "#D80073",
+    "featured": true,
+    "order_index": 2
+  },
+  {
+    "id": "3",
+    "title": "Phase 3: Polish and Optimization",
+    "slug": "phase-3-polish",
+    "description": "Final refinements, performance optimization, and quality assurance",
+    "content": "Polish phase took the site from \"done\" to \"professional.\" Small details make the difference between student work and portfolio-quality output.\n\nTypography refinement: Adjusted letter-spacing on large text (0.02em), tightened line-height for readability, ensured consistent weight usage. Hero text now has the dramatic impact Metro demands.\n\nColor consistency audit: Verified all colors matched Metro palette exactly. Replaced any random colors with systematic choices. Each tile color now serves a purpose in the visual hierarchy.\n\nSpacing system: Implemented consistent 8px base grid. All padding, margins, and gaps use multiples of 8. This creates rhythm and makes the design feel intentional, not arbitrary.\n\nPerformance optimization: Ran Lighthouse audits, achieved 95+ scores across all metrics. Optimized font loading, reduced unnecessary dependencies, ensured fast page loads. Speed matters.\n\nMobile testing: Actually tested on phone, not just DevTools. Fixed touch target sizes, adjusted typography scale for small screens, verified all interactions work with fingers, not just mouse.\n\nAccessibility check: Verified color contrast ratios meet WCAG standards, ensured keyboard navigation works, tested with screen reader. Design should work for everyone.\n\nFinal review: Does every page look authentically Metro? Would someone mistake this for a Microsoft product? That's the standard. Met it.\n\nThis project taught me that excellence is in the details. Anyone can make something that works. Making something that's truly good requires iteration, attention, and standards.",
+    "color": "#00ABA9",
+    "featured": true,
+    "order_index": 3
+  },
+  {
+    "id": "4",
+    "title": "Reflection: AI Collaboration",
+    "slug": "reflection-collaboration",
+    "description": "What I learned about strategic AI partnership and design judgment",
+    "content": "This project fundamentally changed how I think about AI collaboration and my role as a designer-director.\n\nBefore: I thought AI would just \"make it look good\" automatically. Reality: AI needs direction, iteration, and quality standards. It's a tool, not a replacement for judgment.\n\nThe collaboration worked when I was specific: \"96px hero text in Segoe UI Semibold with 0.02em letter-spacing on #0078D7 background\" gets results. \"Make it look Metro\" gets generic output.\n\nScreenshots became our shared language. After each change, I'd screenshot the result and analyze what worked and what didn't. Visual feedback was more effective than verbal descriptions.\n\nI learned to recognize quality. Early iterations looked \"Metro-ish\" but lacked authenticity. Through iteration and comparison with real Microsoft products, I developed an eye for what makes Metro actually Metro. That design judgment is the real skill.\n\nThe AI wrote all the code - thousands of lines across components, pages, styles. I wrote none. But every decision was mine: color choices, typography scale, layout structure, interaction timing. I directed, AI executed.\n\nThis model of collaboration feels like the future. I focused on design strategy and quality standards while AI handled implementation details. More time thinking about what makes good design, less time fighting with CSS.\n\nKey insight: AI makes you a better designer by forcing you to articulate what you want clearly. You can't be vague. This clarity improves your design thinking even without AI.\n\nWould I work this way again? Absolutely. The productivity gain is real, but more importantly, it let me focus on design judgment - the actually hard and valuable skill.\n\nFinal thought: Tools change. Judgment endures. This project taught me judgment.",
+    "color": "#A4C400",
+    "featured": false,
+    "order_index": 4
+  }
+]

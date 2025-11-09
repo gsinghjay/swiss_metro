@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Day 1: Choosing Metro Design",
+    "slug": "day-1-choosing-metro",
+    "excerpt": "Why I selected Microsoft's Metro design language for this transformation project",
+    "content": "Starting the Swiss Design Lineage project, I faced a choice: which design style would I transform our Swiss website into? After reviewing 15 options across beginner, intermediate, and advanced categories, I chose Metro (Fluent Design).\n\nMetro appealed to me because of its bold, unapologetic aesthetic. The dramatically large typography creates instant hierarchy, something Swiss design does through spacing and grids. But Metro does it with SIZE - 96px hero text that commands attention.\n\nThe tile-based layouts reminded me of Windows Phone 7, which I always admired for being different. While iOS went skeuomorphic, Microsoft went authentically digital. That honesty resonates with me.\n\nI also appreciated the \"content before chrome\" philosophy. Like Swiss design's focus on information hierarchy, Metro prioritizes what matters: the content itself. No decoration for decoration's sake.\n\nThis choice sets the direction for my entire project. Time to dive into research and understand what makes Metro truly authentic.",
+    "color": "#0078D7",
+    "published_at": "2025-11-08T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Phase 1: Research and References",
+    "slug": "phase-1-research",
+    "excerpt": "Gathering authentic Metro examples and understanding the design principles",
+    "content": "Research phase began with studying authentic Metro examples: Windows 10 UI, Microsoft Teams, Azure portal. I needed to internalize what makes Metro Metro, not just surface-level aesthetics.\n\nKey discoveries: Typography isn't just big, it's DRAMATICALLY big. I found hero text at 96px, section headers at 48px. The scale creates rhythm through size contrast alone. Segoe UI is the authentic typeface, though Inter works as a substitute.\n\nColors follow a systematic palette: Microsoft Blue #0078D7, Magenta #D80073, Teal #00ABA9, Lime #A4C400. These aren't random - they're from the original Windows Phone design language. Bold, saturated, pure.\n\nTile layouts use strict grid alignment despite appearing asymmetric. Different tile sizes (1x1, 2x1, 1x2) create visual interest while maintaining order. Everything snaps to the grid.\n\nMost important insight: Metro is FLAT. No gradients, no shadows (in pure Metro). Fluent added subtle shadows later, but 2010 Metro was authentically flat. This honest, digital aesthetic is what I'm aiming for.\n\nI saved 50+ reference images. Time to build.",
+    "color": "#D80073",
+    "published_at": "2025-11-07T10:00:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Sprint 1: Building the Foundation",
+    "slug": "sprint-1-foundation",
+    "excerpt": "First AI collaboration sprint establishing layout and typography",
+    "content": "First build sprint with AI. My goal: establish the Metro foundation - layout structure, typography scale, and color system. I learned quickly that directing AI requires precision.\n\nInitial attempt: \"Make it Metro style.\" Result: Generic. The AI gave me rounded corners, gradients, and moderate typography. Not Metro at all. I needed to be specific.\n\nSecond attempt: \"96px hero text, Microsoft Blue #0078D7 background, tile grid with 12px gaps, Segoe UI font family.\" Much better. Specificity matters.\n\nThe tile component took three iterations. First version had wrong aspect ratios. Second version had the right ratios but tiles didn't align to grid properly. Third version: data attributes for size instead of class names (CSS doesn't like class names starting with numbers).\n\nTypography hierarchy came together: 96px hero, 48px section titles, 24px tile titles. The scale creates natural flow through content without needing color or decoration.\n\nKey learning: Screenshot after every change. I could see progress and catch regressions immediately. The AI responded better to visual feedback than verbal descriptions.\n\nFoundation is solid. Homepage structure matches Metro principles. Ready for content and refinement.",
+    "color": "#00ABA9",
+    "published_at": "2025-11-06T10:00:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Sprint 2: Iteration and Refinement",
+    "slug": "sprint-2-refinement",
+    "excerpt": "Multiple refinement cycles to achieve authentic Metro aesthetic",
+    "content": "Second sprint focused on refinement. The foundation was there, but details make the difference between \"Metro-inspired\" and \"authentically Metro.\"\n\nNavigation needed work. First version looked like standard navbar. Metro uses uppercase labels, bold weight, letter-spacing, and minimal chrome. Added black background, tight spacing, active state with Microsoft Blue underline. Much better.\n\nTile hover states: Started with no interaction. Too static. Added subtle scale transform (1.02) with 200ms ease-out timing. Fast and fluid, as Metro intended. No shadows though - keeping it flat.\n\nColor application took thought. I couldn't just randomly assign colors. Each section needed a color that served a purpose: blog posts got varied colors for visual interest, projects got bold colors for impact, about section got teal for calmness.\n\nResponsive design challenged me. Metro tiles don't just shrink - they reflow. Grid goes from multi-column to single column on mobile. Typography scales down but maintains hierarchy. Everything still feels Metro at 375px width.\n\nSpacing refinement: Increased hero padding, tightened tile grid gaps, added consistent section padding (64px desktop, 48px mobile). The breathing room makes content readable without feeling sparse.\n\nQuality standard: Does this look like it could be a Microsoft product? That's the bar. Getting closer.",
+    "color": "#A4C400",
+    "published_at": "2025-11-05T10:00:00Z"
+  }
+]

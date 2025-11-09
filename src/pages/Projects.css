@@ -1,0 +1,47 @@
+.projects-hero {
+  background: #D80073;
+  color: #ffffff;
+  padding: 64px 32px;
+}
+
+.projects-hero .hero-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.projects-hero .hero-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin: 0 0 16px 0;
+}
+
+.projects-hero .hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.projects-section {
+  padding: 64px 32px;
+}
+
+@media (max-width: 768px) {
+  .projects-hero {
+    padding: 48px 16px;
+  }
+
+  .projects-hero .hero-title {
+    font-size: 48px;
+  }
+
+  .projects-hero .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .projects-section {
+    padding: 48px 16px;
+  }
+}
