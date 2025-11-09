@@ -8,7 +8,7 @@ import { About } from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/swiss_metro">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
